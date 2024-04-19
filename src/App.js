@@ -238,7 +238,7 @@ function App() {
         <div className='container border h-100'>
           <div className='row  h-100'>
 
-            <div className='col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1 border border-success d-flex align-items-center justify-content-center'>
+            <div className='col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1 border d-flex align-items-center justify-content-center'>
               <button className='py-3   w-100'><h1 onClick={prevClickHandler} className='w-100'><FontAwesomeIcon icon={faCaretLeft} /></h1></button>
             </div>
 
@@ -260,10 +260,10 @@ function App() {
 
             </div>
 
-            <div className='col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1 border border-success d-flex  align-items-center justify-content-center'>
+            <div className='col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1 border d-flex  align-items-center justify-content-center'>
               <button className='py-3   w-100'><h1 onClick={nextClickHandler}><FontAwesomeIcon icon={faCaretRight} /></h1></button>
             </div>
-
+    
           </div>
         </div>
       </div>
