@@ -242,7 +242,7 @@ function App() {
               <button className='py-3   w-100'><h1 onClick={prevClickHandler} className='w-100'><FontAwesomeIcon icon={faCaretLeft} /></h1></button>
             </div>
 
-            <div className='col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10 col-xs-10 p-0 border d-flex  image_Box' ref={image_slider_section}>
+            <div className='col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10 col-xs-10 p-0  d-flex  image_Box' ref={image_slider_section}>
 
               <div className='col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 '>
                 <img src={ice_cream} />
